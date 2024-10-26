@@ -1,2 +1,106 @@
-# islamq-app-main
+# IslamQ Flutter App
+
+## Overview
+
+IslamQ is a Flutter application designed to provide comprehensive Islamic content to users. This document explains the code structure, design patterns, and key components used in the application.
+
+## Project Structure
+
+The project follows a well-organized structure to maintain code readability and scalability. Here’s an overview of the directory structure:
+
+![image](https://github.com/grayhatdevelopers/uni-of-madinah/assets/113006875/3bf4844c-9862-4f1f-95a0-158b235f3801)
+
+## Directory Explanation
+
+services/: Contain the core logic for data operations, such as API calls etc.
+
+presentation/ui/: Contains all UI-related code. Contains the different screens (views) of the app. Each screen has its own folder. 
+
+## Example 
+
+detail_screen/: Contains the DetailScreen view and its related components.
+
+detail_screen/widgets/: Contains view-specific widgets for DetailScreen. Example: custom_container, title_section etc.
+
+detail_screen/detail_screen.dart: Contains the UI code for the detail screen.
+
+detail_screen/detail_screen_viewmodel.dart: Contains the view model for the detail screen, managing its business logic and state.
+
+## Other views
+
+Other view folders follow a similar structure.
+
+main.dart: Entry point of the application.
+
+## Design Patterns
+### Stacked flutter framework
+IslamQ utilizes the MVVM (Model-View-ViewModel) design pattern facilitated by the stacked package. This pattern helps separate business logic from UI code, making the app more maintainable and testable.
+
+## Explanation of Components
+### Views: 
+Represent the UI of the application. Each view is a separate screen in the app, placed in the presentation/ui/ directory under its specific folder.
+
+Example: detail_screen/detail_screen.dart, home_screen/home_screen.dart.
+
+### ViewModels: 
+
+Handle the business logic and state management for the views. Each view has a corresponding view model, placed within the specific view folder.
+
+Example: detail_screen/detail_screen_viewmodel.dart, home_screen/home_screen_viewmodel.dart.
+
+### Services: 
+
+Contain the core logic for data operations, such as API calls etc. Services are placed in the services/ directory.
+
+Example: ApiService, UserService etc.
+
+### Common Widgets: 
+
+Reusable UI components that can be used across different views. These widgets are placed in the lib/common_widgets/ directory.
+
+Example: CustomButton, custom_button-for_login.dart etc.
+
+## Example: Detail Screen and ViewModel
+
+### DetailScreen:
+
+Located at lib/presentation/ui/detail_screen/detail_screen.dart.
+
+Contains the UI code for the detail screen.
+
+Uses DetailScreenViewModel to interact with the business logic.
+
+### DetailScreenViewModel:
+
+Located at lib/presentation/ui/detail_screen/detail_screen_viewmodel.dart.
+
+Extends BaseViewModel from the stacked package.
+
+Contains logic for fetching data, handling user interactions, and updating the UI state.
+
+### Detail Widgets:
+
+Located in lib/presentation/ui/detail_screen/widgets/.
+
+Contains UI components specific to the detail screen.
+
+Example: title_section.dart.
+
+## Navigation with GetX
+IslamQ uses the GetX package for navigation. GetX provides a simple and efficient way to manage routes and navigation in the application.
+
+### Navigation Example:
+Get.to(NextView());
+
+This command navigates to the NextView screen. Navigation logic is centralized and managed using GetX’s Get.to, Get.back, and other navigation methods.
+
+## Dependency Injection
+
+Dependency injection is managed using the stacked package, ensuring that services and other dependencies are easily accessible throughout the app.
+
+dependency_injection.dart:
+
+Configures dependency injection using Locator.
+
+Registers services.
  
