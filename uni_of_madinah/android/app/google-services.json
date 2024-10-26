@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "276311580922",
+    "project_id": "uni-of-madinah-9e99b",
+    "storage_bucket": "uni-of-madinah-9e99b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276311580922:android:fd6943535e37b8193de943",
+        "android_client_info": {
+          "package_name": "com.example.uni_of_madinah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276311580922-fnfeu3bncn5irlsmgo28ua9n9ilmo2b6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.uni_of_madinah",
+            "certificate_hash": "300f8e5882055efe108b4cd1776f540c838a8ecc"
+          }
+        },
+        {
+          "client_id": "276311580922-i5usj76itqdlkqpu29l1al5mf7721j5p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.uni_of_madinah",
+            "certificate_hash": "b5ed34e3454ac1cfdd2145993a54103c9696a8ff"
+          }
+        },
+        {
+          "client_id": "276311580922-h3sgr4iqceidbmjg8512p9cvtoag85ho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuvUI0fVIrMlTvXsuK48kMo8vZ8Wos0Rg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276311580922-h3sgr4iqceidbmjg8512p9cvtoag85ho.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "276311580922-3ar1bitl5ogrj68bm9che5r2ddafntuh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.uniOfMadinah"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276311580922:android:04aee17189e404a53de943",
+        "android_client_info": {
+          "package_name": "com.uniOfMadinah.islamq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276311580922-h3sgr4iqceidbmjg8512p9cvtoag85ho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuvUI0fVIrMlTvXsuK48kMo8vZ8Wos0Rg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276311580922-h3sgr4iqceidbmjg8512p9cvtoag85ho.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "276311580922-3ar1bitl5ogrj68bm9che5r2ddafntuh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.uniOfMadinah"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
